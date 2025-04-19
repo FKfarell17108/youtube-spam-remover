@@ -171,7 +171,7 @@ async function youtubeContentList(auth) {
         const auth = await authorize();
         // const contentList = await youtubeContentList(auth);
 
-        const testVideoId = "EPhS9-Ix1OU"; // Ganti dengan video ID milikmu
+        const testVideoId = ""; // Ganti dengan video ID milikmu
         console.log(`\n📹 Memeriksa video dengan ID: ${testVideoId}`);
         const spamComments = await fetchComments(auth, testVideoId);
 
